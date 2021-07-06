@@ -153,21 +153,23 @@ a {
 }
 
 #order {
-    background-image: url(images/delivery5-01.png);
-    background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
 }
 
 .box_order {
+    background-image: url(images/Layer\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
     display: flex;
     width: 100%;
+    height: 500px;
 }
 
 .order_item {
-    text-align: left;
+    text-align: center;
     /* margin: 50px; */
-    padding: 80px;
+    padding: 90px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.253));
 }
 
 .icon_img img {
@@ -175,7 +177,37 @@ a {
     margin-top: 10px;
 }
 
-.icon_width {}
+footer {
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 250px;
+}
+
+footer h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+    font-weight: 200;
+}
+
+footer h3 span {
+    color: darkorange;
+    margin-right: 10px;
+}
+
+.last {
+    margin-top: 80px;
+}
 
 
 /* font-family: 'Satisfy', cursive; */
